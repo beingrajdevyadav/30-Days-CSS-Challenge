@@ -9,8 +9,17 @@
     <link rel="stylesheet" href="style.css">
 
     <style>
+        shadows{
+            display: block;
+            background-color: #fff;
+            padding: 1rem ;
+            display: flex;
+            justify-content: space-between;
+            border: 2px solid #ddd;
+            flex-wrap: wrap;
+        }
         div {
-            width: 600px;
+            width: 48%;
             min-height: 200px;
             margin: 20px auto;
             padding: 20px;
@@ -68,52 +77,61 @@
         <hr>
         <br>
 
-        <div class="box-shadow">
-            <h2> Basic Box Shadow</h2>
-            <hr>
-            <code>
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-            </code>
-        </div>
-        <div class="box-shadow-2">
-            <h2>Box Shadow With Blur And Spread</h2>
-            <hr>
-            <code>
-                box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
-            </code>
-        </div>
-        <div class="box-shadow-3">
-            <h2>Box Shadow With Color And Offset</h2>
-            <hr>
-            <code>
-                box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-            </code>
-        </div>
-        <div class="box-shadow-4">
-            <h2>Box Shadow With Inset</h2>
-            <hr>
-            <code>
-                box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
-            </code>
-        </div>
-        <div class="box-shadow-5">
-            <h2>Box Shadow With Multiple Shadows</h2>
-            <hr>
-            <code>
-                box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 0 4px 20px rgba(0, 0, 0, 0.5);
-            </code>
-        </div>
-        <div class="box-shadow-6">
-            <h2>Box Shadow With Hover</h2>
-            <hr>
-<code>
-                box-shadow: 0 0 20px rgba(0, 0, 0, 0.541);<br>
-                transition: box-shadow 0.3s ease;<br> <br>
-                :hover {<br>
-                box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);<br>
-            }<br>
-</code>
-        </div>
+        <shadows>
+
+            <div class="box-shadow">
+                <h2> Basic Box Shadow</h2>
+                <hr>
+                <code>
+                   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+               </code>
+            </div>
+
+            <div class="box-shadow-2">
+                <h2>Box Shadow With Blur And Spread</h2>
+                <hr>
+                <code>
+                   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+               </code>
+            </div>
+
+            <div class="box-shadow-3">
+                <h2>Box Shadow With Color And Offset</h2>
+                <hr>
+                <code>
+                   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+               </code>
+            </div>
+
+            <div class="box-shadow-4">
+                <h2>Box Shadow With Inset</h2>
+                <hr>
+                <code>
+                   box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
+                </code>
+            </div>
+
+            <div class="box-shadow-5">
+                <h2>Box Shadow With Multiple Shadows</h2>
+                <hr>
+                <code>
+                   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 0 4px 20px rgba(0, 0, 0, 0.5);
+               </code>
+            </div>
+
+            <div class="box-shadow-6">
+                <h2>Box Shadow With Hover</h2>
+                <hr>
+                <code>
+                  box-shadow: 0 0 20px rgba(0, 0, 0, 0.541);<br>
+                  transition: box-shadow 0.3s ease;<br> <br>
+                  :hover {<br>
+                  box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);<br>
+                  }<br>
+              </code>
+            </div>
+        </shadows>
+
     </main>
 
     <footer>
